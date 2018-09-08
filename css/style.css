@@ -6,7 +6,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "miso";
+  font-family: "miso", Arial, sans-serif;
   font-size: 25px;
   line-height: 1.8;
   font-weight: lighter;
@@ -162,7 +162,7 @@ textarea.form-control {
 
 /* Site Header */
 .site-header {
-  padding: 3em 30px;
+  padding: 2em 30px;
   position: absolute;
   top: 0;
   z-index: 900;
@@ -334,10 +334,6 @@ textarea.form-control {
   font-size: 50px;
   font-family: 'Fredoka One', "miso";
 }
-
-/* .section-heading .heading p {
-  font-family: "miso";
-} */
 
 @media (max-width: 991.98px) {
   .section-heading h2 {
@@ -1296,8 +1292,9 @@ textarea.form-control {
 
 .cover_1 .heading {
   color: #6fc5e8;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 30px;
+  margin-top: 1rem;
   line-height: 1.5;
   font-family: 'Fredoka One', "miso";
 }
@@ -1678,7 +1675,7 @@ textarea.form-control {
 
 .ftco-footer .footer-widget h3 {
   font-size: 20px;
-  color: #fff;
+  color: #6fc5e8;
   font-family: 'Fredoka One', "miso";
 }
 
@@ -1694,6 +1691,10 @@ textarea.form-control {
   margin-right: 10px;
 }
 
+.ftco-footer .footer-widget .list-unstyled.social li a span:hover {
+  color: #6fc5e8;
+}
+
 .ftco-footer .footer-widget .list-unstyled.social li a {
   font-size: 24px;
   color: #fff;
@@ -1701,6 +1702,7 @@ textarea.form-control {
 
 .ftco-footer .text-center p {
   font-family: "miso";
+  color: grey;
 }
 
 #loader {
