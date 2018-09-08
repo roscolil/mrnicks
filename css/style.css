@@ -1172,6 +1172,10 @@ textarea.form-control {
   position: relative;
 }
 
+#section-menu .menu-png {
+  margin-top: 15px;
+}
+
 .text-muted {
   color: #cccccc !important;
 }
