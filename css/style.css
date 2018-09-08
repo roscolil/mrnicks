@@ -1,4 +1,4 @@
-/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Miso";src:url("miso.eot?") format("eot"),url("miso.woff") format("woff"),url("miso.ttf") format("truetype"),url("miso.svg#Miso") format("svg");font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"miso";src:url("miso-light.eot?") format("eot"),url("miso-light.woff") format("woff"),url("miso-light.ttf") format("truetype"),url("miso-light.svg#Miso-Light") format("svg");font-weight:normal;font-style:normal;}
 
 html {
   overflow-x: hidden;
@@ -6,11 +6,11 @@ html {
 
 body {
   background: #fff;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-size: 20px;
+  font-family: "miso";
+  font-size: 25px;
   line-height: 1.8;
-  font-weight: 300;
-  color: gray;
+  font-weight: lighter;
+  color: black;
 }
 
 p, ul, ol {
@@ -332,8 +332,12 @@ textarea.form-control {
 
 .section-heading h2 {
   font-size: 50px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', "miso";
 }
+
+/* .section-heading .heading p {
+  font-family: "miso";
+} */
 
 @media (max-width: 991.98px) {
   .section-heading h2 {
@@ -1295,7 +1299,7 @@ textarea.form-control {
   font-weight: 300;
   font-size: 30px;
   line-height: 1.5;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', "miso";
 }
 
 @media (min-width: 768px) {
@@ -1675,6 +1679,13 @@ textarea.form-control {
 .ftco-footer .footer-widget h3 {
   font-size: 20px;
   color: #fff;
+  font-family: 'Fredoka One', "miso";
+}
+
+.ftco-footer .footer-widget p {
+  font-size: 20px;
+  color: grey;
+  font-family: "miso";
 }
 
 .ftco-footer .footer-widget .list-unstyled.social li {
@@ -1686,6 +1697,10 @@ textarea.form-control {
 .ftco-footer .footer-widget .list-unstyled.social li a {
   font-size: 24px;
   color: #fff;
+}
+
+.ftco-footer .text-center p {
+  font-family: "miso";
 }
 
 #loader {
