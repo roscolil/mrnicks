@@ -1,7 +1,7 @@
 AOS.init({
   duration: 600
 });
-  
+
 
 (function($) {
 
@@ -20,7 +20,7 @@ AOS.init({
 
   // loader
   var loader = function() {
-    setTimeout(function() { 
+    setTimeout(function() {
       if($('#loader').length > 0) {
         $('#loader').removeClass('show');
       }
@@ -35,7 +35,7 @@ AOS.init({
     $(".smoothscroll[href^='#'], #ftco-navbar ul li a[href^='#']").on('click', function(e) {
       e.preventDefault();
       var hash = this.hash;
-        
+
       $('html, body').animate({
 
         scrollTop: $(hash).offset().top
@@ -48,10 +48,6 @@ AOS.init({
         navToggler.click();
       }
     });
-
-    // $('body').on('activate.bs.scrollspy', function () {
-    //   console.log('nice');
-    // })
   };
   OnePageNav();
 
@@ -59,21 +55,22 @@ AOS.init({
 
     var $this = $(this),
       st = $this.scrollTop(),
-      navbar = $('.site-header');
+      navbar = $('.site-header'),
+      headerLogo = $('.header-logo');
 
     if (st > 150) {
       if ( !navbar.hasClass('scrolled') ) {
-        navbar.addClass('scrolled');  
+        navbar.addClass('scrolled');
       }
-    } 
+    }
     if (st < 150) {
       if ( navbar.hasClass('scrolled') ) {
         navbar.removeClass('scrolled sleep');
       }
-    } 
+    }
     if ( st > 350 ) {
       if ( !navbar.hasClass('awake') ) {
-        navbar.addClass('awake'); 
+        navbar.addClass('awake');
       }
     }
     if ( st < 350 ) {
@@ -83,7 +80,7 @@ AOS.init({
       }
     }
 
-  }); 
+  });
 
 
   $('.js-site-nav-toggle').on('click', function(e) {
@@ -91,7 +88,7 @@ AOS.init({
     var $this = $(this);
     e.preventDefault();
 
- 
+
 
     if ( $('body').hasClass('menu-open') ) {
       $this.removeClass('active');
@@ -104,7 +101,7 @@ AOS.init({
 
           // $(this).removeClass('is-show');
         });
-      
+
       setTimeout(function() {
         // $('.site-menu').fadeOut(400);
         $('.site-menu').removeClass('site-menu-show');
@@ -128,13 +125,13 @@ AOS.init({
 
         });
       }, 500);
-      
+
     }
 
   });
 
 
-	
+
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
 		$this.addClass('show');
@@ -286,7 +283,7 @@ AOS.init({
   $('#time').timepicker();
 
 
-  //------- Google Map  js --------//  
+  //------- Google Map  js --------//
 
     if (document.getElementById("map")) {
         google.maps.event.addDomListener(window, 'load', init);
