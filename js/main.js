@@ -62,24 +62,27 @@ AOS.init({
       if ( !navbar.hasClass('scrolled') ) {
         navbar.addClass('scrolled');
       }
+      $(headerLogo).show();
     }
     if (st < 150) {
       if ( navbar.hasClass('scrolled') ) {
         navbar.removeClass('scrolled sleep');
       }
+      $(headerLogo).hide();
     }
     if ( st > 350 ) {
       if ( !navbar.hasClass('awake') ) {
         navbar.addClass('awake');
       }
+      $(headerLogo).show();
     }
     if ( st < 350 ) {
       if ( navbar.hasClass('awake') ) {
         navbar.removeClass('awake');
         navbar.addClass('sleep');
       }
+      $(headerLogo).hide();
     }
-
   });
 
 
