@@ -14,7 +14,7 @@ body {
 }
 
 p, ul, ol {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -331,7 +331,7 @@ textarea.form-control {
 }
 
 .section-heading h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Fredoka One', "miso";
 }
 
@@ -342,7 +342,14 @@ textarea.form-control {
 }
 
 .section-heading .sub-heading {
-  font-size: 20px;
+  font-size: 30px;
+  font-family: "miso", Arial, sans-serif;
+}
+
+.list-center {
+  text-align: center;
+  display: inline-block;
+  text-align:left;
 }
 
 .section-heading .small-sub-heading {
@@ -350,7 +357,7 @@ textarea.form-control {
   color: #ff7a5c;
 }
 
-#section-findus iframe {
+#section-findus img {
   margin-top: 30px;
 }
 
@@ -1301,7 +1308,7 @@ textarea.form-control {
 .cover_1 .heading {
   color: #6fc5e8;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 1rem;
   line-height: 1.5;
   font-family: 'Fredoka One', "miso";
@@ -1309,7 +1316,7 @@ textarea.form-control {
 
 @media (min-width: 768px) {
   .cover_1 .heading {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 900;
     line-height: 1.2;
   }
