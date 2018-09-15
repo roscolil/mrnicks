@@ -330,6 +330,10 @@ textarea.form-control {
   height: 300px;
 }
 
+.section-heading {
+  margin-top: 4em;
+}
+
 .section-heading h2 {
   font-size: 40px;
   font-family: 'Fredoka One', "miso";
@@ -1178,7 +1182,7 @@ textarea.form-control {
 }
 
 .section {
-  padding: 7em 0;
+  padding: 4em 0;
   z-index: 2;
   position: relative;
 }
