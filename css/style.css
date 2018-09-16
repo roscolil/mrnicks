@@ -6,7 +6,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "miso", Arial, sans-serif;
+  font-family: "miso";
   font-size: 25px;
   line-height: 1.8;
   font-weight: lighter;
@@ -1323,6 +1323,7 @@ textarea.form-control {
     font-size: 50px;
     font-weight: 900;
     line-height: 1.2;
+    font-family: 'Fredoka One', "miso";
   }
 }
 
