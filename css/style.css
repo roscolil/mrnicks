@@ -6,7 +6,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "miso";
+  font-family: "miso", Arial, sans-serif;
   font-size: 25px;
   line-height: 1.8;
   font-weight: lighter;
@@ -147,7 +147,7 @@ textarea.form-control {
   width: 120%;
   position: absolute;
   bottom: 0;
-  height: 200px;
+  height: 140px;
   left: 50%;
 }
 
@@ -162,7 +162,7 @@ textarea.form-control {
 
 /* Site Header */
 .site-header {
-  padding: 2em 30px;
+  padding: 1.5em 30px;
   position: absolute;
   top: 0;
   z-index: 900;
@@ -193,7 +193,7 @@ textarea.form-control {
 
 .site-header.scrolled {
   position: fixed;
-  padding: 1em 30px;
+  padding: .8em 30px;
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
@@ -342,6 +342,7 @@ textarea.form-control {
 @media (max-width: 991.98px) {
   .section-heading h2 {
     font-size: 30px;
+    font-family: "miso", Arial, sans-serif;
   }
 }
 
@@ -354,11 +355,13 @@ textarea.form-control {
   text-align: center;
   display: inline-block;
   text-align:left;
+  white-space: nowrap;
 }
 
 .section-heading .small-sub-heading {
   font-size: 14px;
   color: #ff7a5c;
+  font-family: "miso", Arial, sans-serif;
 }
 
 #section-findus img {
@@ -1182,7 +1185,7 @@ textarea.form-control {
 }
 
 .section {
-  padding: 4em 0;
+  padding: 2em 0;
   z-index: 2;
   position: relative;
 }
@@ -1689,7 +1692,7 @@ textarea.form-control {
 .ftco-footer {
   background: #121212;
   padding: 7em 0;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 400;
 }
 
@@ -1697,6 +1700,7 @@ textarea.form-control {
   font-size: 20px;
   color: #6fc5e8;
   font-family: 'Fredoka One', "miso";
+  margin-bottom: .5rem!important;
 }
 
 .ftco-footer .footer-widget p {
