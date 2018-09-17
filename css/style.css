@@ -6,7 +6,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "miso", "Barlow Condensed", Arial, sans-serif;
+  font-family: "miso", "Dosis", Arial, sans-serif;
   font-size: 25px;
   line-height: 1.8;
   font-weight: lighter;
@@ -342,13 +342,13 @@ textarea.form-control {
 @media (max-width: 991.98px) {
   .section-heading h2 {
     font-size: 30px;
-    font-family: "miso", "Barlow Condensed", Arial, sans-serif;
+    font-family: "miso", "Dosis", Arial, sans-serif;
   }
 }
 
 .section-heading .sub-heading {
   font-size: 30px;
-  font-family: "miso", "Barlow Condensed", Arial, sans-serif;
+  font-family: "miso", "Dosis", Arial, sans-serif;
 }
 
 .list-center {
@@ -361,7 +361,7 @@ textarea.form-control {
 .section-heading .small-sub-heading {
   font-size: 14px;
   color: #ff7a5c;
-  font-family: "miso", "Barlow Condensed", Arial, sans-serif;
+  font-family: "miso", "Dosis", Arial, sans-serif;
 }
 
 #section-findus img {
@@ -1706,7 +1706,7 @@ textarea.form-control {
 .ftco-footer .footer-widget p {
   font-size: 20px;
   color: grey;
-  font-family: "miso", "Barlow Condensed", Arial, sans-serif;
+  font-family: "miso", "Dosis", Arial, sans-serif;
 }
 
 .ftco-footer .footer-widget .list-unstyled.social li {
