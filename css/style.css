@@ -74,6 +74,10 @@ textarea.form-control {
   height: 47px !important;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Site Menu*/
 .site-menu {
   display: block;
