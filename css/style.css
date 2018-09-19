@@ -373,6 +373,10 @@ textarea.form-control {
   margin-top: 30px;
 }
 
+.map-padding {
+  margin-bottom: 50px;
+}
+
 @media (min-width: 992px) {
   .media figure.horizontal {
     width: 150px;
