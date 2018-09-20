@@ -98,6 +98,7 @@ textarea.form-control {
   box-shadow: 0 -20px 20px -5px rgba(0, 0, 0, 0.05);
   min-height: 300px;
   overflow: auto;
+  box-shadow: 0px 6px 6px #6fc5e8;
 }
 
 .site-menu ul {
@@ -166,12 +167,11 @@ textarea.form-control {
 
 /* Site Header */
 .site-header {
-  padding: 1.5em 30px;
+  padding: .7em 30px;
   position: absolute;
   top: 0;
   z-index: 900;
   width: 100%;
-  box-shadow: 0px 2px 2px #6fc5e8;
 }
 
 .site-header .site-logo {
@@ -198,7 +198,7 @@ textarea.form-control {
 
 .site-header.scrolled {
   position: fixed;
-  padding: .8em 30px;
+  padding: .4em 30px;
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
@@ -367,6 +367,25 @@ textarea.form-control {
   font-size: 14px;
   color: #ff7a5c;
   font-family: "miso", "Dosis", Arial, sans-serif;
+}
+
+.call-number {
+  color: #222;
+  animation-name: color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    color: #222;
+  }
+  50% {
+    color: #6fc5e8;
+  }
+  100 {
+    color: #222;
+  }
 }
 
 #section-findus img {
@@ -1700,7 +1719,7 @@ textarea.form-control {
 
 .ftco-footer {
   background: #121212;
-  padding: 7em 0;
+  padding: 7em 0 2em 0;
   font-size: 12px;
   font-weight: 400;
 }
