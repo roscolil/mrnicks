@@ -427,6 +427,10 @@ textarea.form-control {
     width: auto;
     height: auto;
   }
+
+  .site-header.scrolled {
+    padding: 1.3em 30px;
+  }
 }
 
 .media.media-bg-white {
