@@ -167,7 +167,7 @@ textarea.form-control {
 
 /* Site Header */
 .site-header {
-  padding: .7em 30px;
+  padding: 1em 30px;
   position: absolute;
   top: 0;
   z-index: 900;
@@ -198,7 +198,7 @@ textarea.form-control {
 
 .site-header.scrolled {
   position: fixed;
-  padding: .4em 30px;
+  padding: 1em 30px;
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
@@ -1389,11 +1389,6 @@ textarea.form-control {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-  }
-
-  #section-findus iframe{
-    width: auto;
-    height: auto;
   }
 }
 
