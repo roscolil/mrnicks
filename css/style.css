@@ -1390,6 +1390,11 @@ textarea.form-control {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  #section-findus iframe{
+    width: auto;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
