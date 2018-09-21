@@ -428,9 +428,9 @@ textarea.form-control {
     height: auto;
   }
 
-  .site-header.scrolled {
-    padding: 1.5em 30px;
-  }
+  /* .site-header.scrolled {
+    padding: 1em 30px;
+  } */
 }
 
 .media.media-bg-white {
