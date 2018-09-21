@@ -388,8 +388,8 @@ textarea.form-control {
   }
 }
 
-#section-findus img {
-  margin-top: 30px;
+#section-findus {
+  margin-top: 20px;
 }
 
 .map-padding {
@@ -421,6 +421,11 @@ textarea.form-control {
   .media > a {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  #section-findus iframe{
+    width: auto;
+    height: auto;
   }
 }
 
