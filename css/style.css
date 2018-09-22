@@ -13,6 +13,13 @@ body {
   color: black;
 }
 
+html,
+body {
+  width: auto!important;
+  overflow-x: hidden!important
+}
+
+
 p, ul, ol {
   margin-bottom: 10px;
 }
@@ -167,7 +174,7 @@ textarea.form-control {
 
 /* Site Header */
 .site-header {
-  padding: 1em 30px;
+  padding: .8em 30px;
   position: absolute;
   top: 0;
   z-index: 900;
@@ -198,7 +205,7 @@ textarea.form-control {
 
 .site-header.scrolled {
   position: fixed;
-  padding: 1em 30px;
+  padding: .8em 30px;
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
@@ -1222,7 +1229,7 @@ textarea.form-control {
 }
 
 .section {
-  padding: 2em 0;
+  padding: 1.5em 0;
   z-index: 2;
   position: relative;
 }
